@@ -15,7 +15,6 @@ import { VentasModule } from './ventas/ventas.module';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    PrimeNgModule,
     SharedModule,
     VentasModule  
   ],

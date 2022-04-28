@@ -1,28 +1,3 @@
 <app-menu></app-menu>
 
 
-<div class="text-layout">
-  <h1>{{ nombre | titlecase }}</h1>
-  <h1>{{ valor | number }}</h1>
-  <h1>{{ obj | json }}</h1>
-</div>
-
-<button pButton 
-        (click)="mostrarNombre()" 
-        label="Cambiar nombre"
-        icon="pi pi-check" 
-        iconPos="right"
-        class="p-button-help"
-        ></button>
-
-        <br>
-        <br>
-
-
-<p-card [header]="nombre | titlecase" [style]="{'width': '25rem', 'margin-bottom': '2em'}">
-    <ng-template pTemplate="header">
-     <!-- <img alt="Card" src="assets/showcase/images/usercard.png"> -->   
-    </ng-template>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore sed consequuntur error repudiandae numquam deserunt
-        quisquam repellat libero asperiores earum nam nobis, culpa ratione quam perferendis esse, cupiditate neque quas!</p>
-</p-card>        
