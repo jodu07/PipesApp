@@ -60,7 +60,10 @@
             
             <hr>
             <ul>
-                <li></li>
+                <li>fecha | date:'long':'GMT-6'</li>
+                <li>fecha | date:'long':'GMT-4'</li>
+                <li>fecha | date:'long':'GMT-4':'en' (inglés)</li>
+                <li>fecha | date:'long':'GMT-4':'fr' (francés)</li>
             </ul>
 
         </p-card>
@@ -88,11 +91,15 @@
             
             <hr>
             <ul>
-                <li></li>
+                <li>{{fecha | date:'long':'GMT-6' }}</li>
+                <li>{{fecha | date:'long':'GMT-4' }}</li>
+                <li>{{fecha | date:'long':'GMT-4':'en' }}</li>
+                <li>{{fecha | date:'long':'GMT-4':'fr' }}</li>
             </ul>
-            
+
         </p-card>
     </div> 
 
 </div>
+
 
