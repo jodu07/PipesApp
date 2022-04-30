@@ -29,10 +29,11 @@ registerLocaleData(localeFr);
   ],
   imports: [
     BrowserModule,
+    BrowserAnimationsModule,
     AppRoutingModule,
     SharedModule,
-    VentasModule,
-    BrowserAnimationsModule
+    VentasModule
+    
   ],
   providers: [
 
