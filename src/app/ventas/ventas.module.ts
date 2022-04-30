@@ -5,7 +5,7 @@ import { NoComunesComponent } from './pages/no-comunes/no-comunes.component';
 import { BasicosComponent } from './pages/basicos/basicos.component';
 import { OrdenarComponent } from './pages/ordenar/ordenar.component';
 import { PrimeNgModule } from '../prime-ng/prime-ng.module';
-import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+
 
 
 
@@ -18,8 +18,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
   ],
   imports: [
     CommonModule,
-    PrimeNgModule,
-    BrowserAnimationsModule
+    PrimeNgModule
   ],
   exports: [
     NumerosComponent,
