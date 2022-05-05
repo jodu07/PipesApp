@@ -19,9 +19,13 @@ invitacionMapa = {
 }
 
 //plural
-clientes: string[] = [];
+clientes: string[] = ['Maria', 'Maria', 'Maria', 'Maria', 'Maria', 'Maria'];
 clientesMapa = {
-  '=0': 'no tenemos ningun cliente esperando'
+  '=0': 'no tenemos ningun cliente esperando',
+  '=1': 'tenemos un cliente esperando',
+  '=2': 'tenemos dos clientes esperando',
+  'other': 'tenemos # clientes esperando'
+  
   
 }
 
