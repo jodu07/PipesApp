@@ -45,8 +45,8 @@ personas: Persona[] = [
   
 ]
 
-nombre: string = 'Claudia';
-genero: string = 'femenino';
+nombre: string = 'Jhonnatan';
+genero: string = 'Masculino';
 invitacionMapa = {
   'Masculino': 'invitarlo',
   'Femenino': 'invitarla'
