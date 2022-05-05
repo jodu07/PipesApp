@@ -15,7 +15,7 @@ export interface Persona {
 })
 export class NoComunesComponent {
 
-//select
+//18nselect
 
 personas: Persona[] = [
   {
@@ -52,7 +52,7 @@ invitacionMapa = {
   'Femenino': 'invitarla'
 }
 
-//plural
+//18nplural
 clientes: string[] = ['Elena', 'Rodrigo', 'Jose', 'Pepe', 'Juli', 'Juan', 'Ernesto', 'juana', 'Maria'];
 clientesMapa = {
   '=0': 'no tenemos ningun cliente esperando',
@@ -79,6 +79,14 @@ cambiarCliente(){
 borrarCliente(){
   this.clientes.splice(0,1);
   console.log('borr', this.clientes);
+}
+
+// keyValue pipe
+
+persona = {
+  nombre: 'Jhonnatan',
+  edad: 33,
+  direccion: 'calle'
 }
 
 
