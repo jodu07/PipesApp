@@ -89,5 +89,21 @@ persona = {
   direccion: 'calle'
 }
 
+// jsonPipe
+heroes = [
+{
+  nombre: 'superman',
+  vuela: true
+},
+{
+  nombre: 'Batman',
+  vuela: false
+},
+{
+  nombre: 'Spiderman',
+  vuela: false
+}
+]
+
 
 }
