@@ -9,12 +9,20 @@ import { Component, OnInit } from '@angular/core';
 })
 export class NoComunesComponent {
 
+//select
 nombre: string = 'Claudia';
 genero: string = 'femenino';
 
 invitacionMapa = {
   'masculino': 'invitarlo',
   'femenino': 'invitarla'
+}
+
+//plural
+clientes: string[] = [];
+clientesMapa = {
+  '=0': 'no tenemos ningun cliente esperando'
+  
 }
 
 
