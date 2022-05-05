@@ -53,7 +53,7 @@ invitacionMapa = {
 }
 
 //plural
-clientes: string[] = ['Elena', 'Maria', 'Maria', 'Maria', 'Maria', 'Maria'];
+clientes: string[] = ['Elena', 'Rodrigo', 'Jose', 'Pepe', 'Juli', 'Juan', 'Ernesto', 'juana', 'Maria'];
 clientesMapa = {
   '=0': 'no tenemos ningun cliente esperando',
   '=1': 'tenemos un cliente esperando',
