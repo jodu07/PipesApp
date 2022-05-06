@@ -11,6 +11,7 @@ export class OrdenarComponent {
 
   enMayusculas: boolean=true;
 
+  
   cambiarATrue(){
     this.enMayusculas = !this.enMayusculas;
    // console.log('cambio:', this.enMayusculas);
