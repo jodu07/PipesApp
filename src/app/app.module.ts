@@ -36,6 +36,7 @@ registerLocaleData(localePt);
     SharedModule,
     VentasModule
     
+    
   ],
   providers: [
 
