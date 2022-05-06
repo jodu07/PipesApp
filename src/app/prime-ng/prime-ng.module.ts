@@ -1,13 +1,16 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { FieldsetModule } from 'primeng/fieldset';
+
 
 
 //primeNg
 import  {ButtonModule } from 'primeng/button';
 import { CardModule } from 'primeng/card';
+import { FieldsetModule } from 'primeng/fieldset';
 import { MenubarModule } from 'primeng/menubar';
-
+import { SplitButtonModule } from 'primeng/splitbutton';
+import {TableModule} from 'primeng/table';
+import {ToolbarModule} from 'primeng/toolbar';
 
 
 @NgModule({
@@ -19,7 +22,10 @@ import { MenubarModule } from 'primeng/menubar';
     ButtonModule,
     CardModule,
     MenubarModule,
-    FieldsetModule   
+    FieldsetModule,
+    SplitButtonModule,
+    TableModule,
+    ToolbarModule   
     
   ]
 })
