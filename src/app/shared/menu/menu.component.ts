@@ -42,22 +42,10 @@ export class MenuComponent implements OnInit {
           icon:'pi pi-cog',
           items:[
               {
-                  label:'Left',
-                  icon:'pi pi-fw pi-align-left'
-              },
-              {
-                  label:'Right',
-                  icon:'pi pi-fw pi-align-right'
-              },
-              {
-                  label:'Center',
-                  icon:'pi pi-fw pi-align-center'
-              },
-              {
-                  label:'Justify',
-                  icon:'pi pi-fw pi-align-justify'
-              },
-
+                  label:'Pipes personalizados',
+                  icon:'pi pi-cog',
+                  routerLink: 'ordenar'
+              },             
           ]
       }     
   ];

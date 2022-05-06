@@ -14,6 +14,7 @@ import { AppComponent } from './app.component';
 // importar idioma
 import localeEs from '@angular/common/locales/es-CO';
 import localeFr from '@angular/common/locales/fr';
+import localePt from '@angular/common/locales/pt'
 
 // importar funcion para registrar idioma
 import { registerLocaleData } from '@angular/common';
@@ -21,6 +22,7 @@ import { registerLocaleData } from '@angular/common';
 //registrar idioma en la funcion
 registerLocaleData(localeEs);
 registerLocaleData(localeFr);
+registerLocaleData(localePt);
 
 
 @NgModule({
