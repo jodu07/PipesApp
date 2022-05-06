@@ -12,7 +12,7 @@ export class OrdenarComponent {
 
   enMayusculas: boolean=true;
 
-  heroe: Heroe[]=[
+  heroes: Heroe[]=[
     {
       nombre: 'Superman',
       vuela: true,
