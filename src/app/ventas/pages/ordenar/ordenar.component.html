@@ -42,7 +42,7 @@
 
 <div class="grid">
   <div class="col mt-2">
-    <p-table [value]="[]" responsiveLayout="scroll">
+    <p-table [value]="heroe" responsiveLayout="scroll">
       <ng-template pTemplate="header">
           <tr>
               <th>Nombre</th>
@@ -50,11 +50,11 @@
               <th>Color</th>              
           </tr>
       </ng-template>
-      <ng-template pTemplate="body" let-product>
+      <ng-template pTemplate="body" let-heroe>
           <tr>
-              <td>{{product.code}}</td>
-              <td>{{product.name}}</td>
-              <td>{{product.category}}</td>              
+              <td>{{heroe.nombre}}</td>
+              <td>{{heroe.vuela}}</td>
+              <td>{{heroe.color}}</td>              
           </tr>
       </ng-template>
     </p-table>
