@@ -3,7 +3,6 @@ export enum Color{
 
 }
 
-
 export interface Heroe{
     nombre: string;
     vuela: boolean;

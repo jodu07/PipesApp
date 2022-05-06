@@ -8,7 +8,7 @@ export class VuelaPipe implements PipeTransform{
 
     transform(termino: boolean= true): string{
         
-         return( termino ) ? 'Vuela' :  'No vuela';
+         return( termino ) ? 'vuela' :  'no vuela';
        
       }
 }
