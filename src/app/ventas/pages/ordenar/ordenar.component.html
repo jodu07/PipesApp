@@ -1,7 +1,11 @@
-
 <div class="text-layout">
-    <h1>Pipes personalizados</h1>
-    <p>
-        Pipes creados por {{'NosoTrOs' | mayusculas:false}} 
-    </p>
+  <h1>Pipes personalizados</h1>
+  <p>Pipes creados por {{ 'NosoTrOs' | mayusculas: enMayusculas}}</p>
+  <button
+  (click)="cambiarATrue()" 
+  pButton 
+  type="button" 
+  label="Toogle mayúsculas" 
+  class="p-button-warning">
+</button>
 </div>
