@@ -7,17 +7,9 @@ import { MenuItem } from 'primeng/api';
   styles: [
   ]
 })
-export class OrdenarComponent implements OnInit {
-
-
+export class OrdenarComponent {
 
   enMayusculas: boolean=true;
-
-  constructor() { }
-
-  ngOnInit(): void {
-    
-  }
 
   cambiarATrue(){
     this.enMayusculas = !this.enMayusculas;
