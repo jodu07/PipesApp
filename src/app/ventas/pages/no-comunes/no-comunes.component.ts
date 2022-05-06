@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { interval } from 'rxjs';
 
 export interface Persona {
   nombre: string;
@@ -104,6 +105,20 @@ heroes = [
   vuela: false
 }
 ]
+
+
+//Async Pipe
+myObservable = interval(5000); // 0,1,2,3,4.....
+
+valorPromesa = new Promise((resolve, reject) => {
+  
+  setTimeout(() => {
+    resolve('tenemos data de promesa');
+  }, 3500);
+
+});
+
+
 
 
 }
