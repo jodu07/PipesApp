@@ -49,7 +49,7 @@ export class OrdenarComponent {
 
   cambiarOrden( valor: string ){
     this.ordenarPor = valor;
-    console.log(valor);
+  //  console.log(valor);
   }
 
 }
