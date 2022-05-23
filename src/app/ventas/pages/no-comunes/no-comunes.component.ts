@@ -5,9 +5,7 @@ import { tap } from 'rxjs/operators'
 export interface Persona {
   nombre: string;
   genero: string;
-
 }
-
 
 @Component({
   selector: 'app-no-comunes',
@@ -15,6 +13,7 @@ export interface Persona {
   styles: [
   ]
 })
+
 export class NoComunesComponent {
 
 //18nselect
@@ -65,17 +64,11 @@ clientesMapa = {
 
 
 cambiarCliente(){
-
   const personaRandom = Math.floor(Math.random()*this.personas.length);
-
- //console.log(this.personas[personaRandom].nombre);   
-
+ //console.log(this.personas[personaRandom].nombre); 
  this.nombre = this.personas[personaRandom].nombre;
-
  this.genero = this.personas[personaRandom].genero;
-
- // console.log(personaRandom);
-  
+ // console.log(personaRandom);  
 }
 
 borrarCliente(){
@@ -84,7 +77,6 @@ borrarCliente(){
 }
 
 // keyValue pipe
-
 persona = {
   nombre: 'Jhonnatan',
   edad: 33,
@@ -117,8 +109,6 @@ valorPromesa = new Promise((resolve, reject) => {
     resolve('tenemos data de promesa');
   }, 3500);
 });
-
-
 
 
 }

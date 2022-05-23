@@ -17,7 +17,7 @@ import { OrdenarPipe } from './pipes/ordenar.pipe';
     NoComunesComponent,
     BasicosComponent,
     OrdenarComponent,
-
+    
     //pipes
     MayusculasPipe,
     VuelaPipe,
@@ -31,8 +31,7 @@ import { OrdenarPipe } from './pipes/ordenar.pipe';
     NumerosComponent,
     NoComunesComponent,
     BasicosComponent,
-    OrdenarComponent
-    
+    OrdenarComponent    
   ]
 })
 export class VentasModule { }
